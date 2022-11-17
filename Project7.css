@@ -1,0 +1,46 @@
+
+        #father{
+            height: 680px;
+            width: 740px;
+            border: 1px solid;
+            background-image: linear-gradient(to bottom right, rgb(20, 231, 250) ,purple, rgb(202, 78, 202)) ;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #inner{
+            height: 400px;
+            width: 600px;
+            border: 1px solid;
+            background-color: white;
+            margin: 0 auto;
+            /* margin-top: 35px; */
+        }
+        h1{
+            background-image: linear-gradient(rgb(20, 231, 250) ,purple, rgb(202, 78, 202));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-left:120px;
+        }
+        .l1{
+            display: flex;
+            margin-left: 40px;
+            margin-top: 50px;   
+        }
+        .l2{
+            padding-right: 15px;
+        }
+        input{
+            border: none;
+            border-bottom: 2px solid green;
+            padding-right: 90px;
+        }
+        button{
+            background-image: linear-gradient(to right,rgb(20, 231, 250) ,purple, rgb(202, 78, 202));
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
